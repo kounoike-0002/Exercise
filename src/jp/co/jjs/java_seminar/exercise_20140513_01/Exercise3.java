@@ -11,5 +11,4 @@ public class Exercise3 {
         System.out.println("割り算は:"+((double)a/(double)b));
         System.out.println("剰余は:"+(a%b));
     }
-
 }
