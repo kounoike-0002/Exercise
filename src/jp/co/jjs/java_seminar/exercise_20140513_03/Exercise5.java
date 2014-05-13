@@ -8,18 +8,16 @@ public class Exercise5 {
         b = 127;
         a = (byte)b;
 
-        System.out.println("a="+a);
+        System.out.println("a=" + a);
 
         b = 258;
         a = (byte)b;
 
-        System.out.println("a="+a);
+        System.out.println("a=" + a);
 
-        b = -129;
+        b = 129;
         a = (byte)b;
 
-        System.out.println("a="+a);
-
+        System.out.println("a=" + a);
     }
-
 }
