@@ -8,4 +8,8 @@ public class Book {
     String publisher;       //本の出版社
     boolean bookRent;       //本の貸し出し情報
     String firstEditionDate;//本の初版日
+    
+    public Book(String bookName) {
+        this.bookName = bookName;
+    }
 }
