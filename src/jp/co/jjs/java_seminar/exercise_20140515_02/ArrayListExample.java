@@ -15,11 +15,17 @@ public class ArrayListExample {
         
         System.out.println(listSize);
         
+        /*String[] s = (String[])(list.toArray());
+        for(int i = 0; i <= s.length - 1; i++ ){
+            System.out.println(s[i]);
+        }*/
+        
+        
         for(int i = 0; i <= list.size() - 1; i++ ){
             System.out.println(list.get(i));
             
         }
-        System.out.println(list.toString());
+        System.out.println(list/*.toString()*/);
     }
 
 }
