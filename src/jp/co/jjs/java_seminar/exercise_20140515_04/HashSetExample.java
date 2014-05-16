@@ -16,13 +16,12 @@ public class HashSetExample {
         
         System.out.println(hs);                     //5
         
-        
+        /*
         HashSet<Book> hsb = new HashSet<Book>(); 
         Book b = new Book("name",0,"writer",false);
         hsb.add(b);                                
         
-        System.out.println(hsb);                     
-        
+        System.out.println(hsb.name(1));                     
+        */
     }
-
 }
