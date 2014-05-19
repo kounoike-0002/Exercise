@@ -1,0 +1,11 @@
+if(count < 10){								//①
+	if(!done)								//②
+		system.out.print("running");
+	if(count == 5){							//③
+		System.out.pritln("half way");
+		x = y * 2;
+	}
+	else cout ++;
+}
+
+/*elseは③のif文に関連付けられている*/
