@@ -21,6 +21,4 @@ public class Book {
         return "Book [title=" + title + ", isbn=" + isbn + ", writer=" + writer
                 + ", publisher=" + publisher + ", price=" + price + "]";
     }
-
-
 }
